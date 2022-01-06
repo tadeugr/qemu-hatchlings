@@ -52,3 +52,9 @@ sudo systemctl start docker
 
 sudo usermod -a -G docker $(whoami)
 ```
+
+# postgresql-libs
+
+```
+sudo pacman -S postgresql-libs
+```
