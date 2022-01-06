@@ -14,5 +14,4 @@ qemu-system-x86_64 \
   -display default,show-cursor=on \
   -net user,hostfwd=tcp::10022-:22 \
   -net nic \
-  -full-screen \
-  -cdrom $HERE/../../boot.iso
+  -full-screen
