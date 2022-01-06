@@ -42,3 +42,13 @@ sudo yay -S google-chrome
 ```
 yay -S google-cloud-sdk
 ```
+# Docker
+
+```
+sudo pacman -Syu docker docker-compose
+
+sudo systemctl enable docker
+sudo systemctl start docker
+
+sudo usermod -a -G docker $(whoami)
+```
