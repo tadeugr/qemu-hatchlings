@@ -34,7 +34,7 @@ sudo pacman -S geany
 # Chrome
 
 ```
-sudo yay -S google-chrome
+yay -S google-chrome
 ```
 
 # google-cloud-sdk (gcloud)
@@ -50,7 +50,8 @@ sudo pacman -Syu docker docker-compose
 sudo systemctl enable docker
 sudo systemctl start docker
 
-sudo usermod -a -G docker $(whoami)
+export GRANT=$(whoami)
+sudo usermod -a -G docker $GRANT
 ```
 
 # postgresql-libs
